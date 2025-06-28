@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add/Delete Projects</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <form action="store.php" method="post">
+        <label for="projectName">Project Name:</label><br>
+        <input type="text" id="projectName" name="projectName"><br>
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description"></textarea><br>
+        <label for="otherDetails">Other Details:</label><br>
+        <input type="text" id="otherDetails" name="otherDetails"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Project List</h2>
+    <a href="projects.php">View Projects</a><hr>
+    
+
+</body>
+</html>
